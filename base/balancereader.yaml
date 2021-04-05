@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: balancereader
-        image: gcr.io/krm-test-3/cymbal-bank/release/balancereader:1234
+        image: balancereader
         volumeMounts:
         - name: publickey
           mountPath: "/root/.ssh"

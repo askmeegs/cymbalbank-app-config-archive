@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: contacts
-        image: gcr.io/krm-test-3/cymbal-bank/release/contacts:1234
+        image: contacts
         volumeMounts:
         - name: publickey
           mountPath: "/root/.ssh"

@@ -26,7 +26,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: loadgenerator
-        image: gcr.io/krm-test-3/cymbal-bank/release/loadgenerator:1234
+        image: loadgenerator
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"

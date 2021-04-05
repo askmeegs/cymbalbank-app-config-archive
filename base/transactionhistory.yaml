@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: transactionhistory
-        image: transactionhistory
+        image: gcr.io/krm-test-3/cymbal-bank/release/transactionhistory:1234
         volumeMounts:
         - name: publickey
           mountPath: "/root/.ssh"

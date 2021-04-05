@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: front
-        image: frontend
+        image: gcr.io/krm-test-3/cymbal-bank/release/frontend:1234
         volumeMounts:
         - name: publickey
           mountPath: "/root/.ssh"

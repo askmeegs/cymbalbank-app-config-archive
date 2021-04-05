@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: ledgerwriter
-        image: ledgerwriter
+        image: gcr.io/krm-test-3/cymbal-bank/release/ledgerwriter:61b0f15
         volumeMounts:
         - name: publickey
           mountPath: "/root/.ssh"

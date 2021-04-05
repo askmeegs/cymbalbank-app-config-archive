@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: userservice
-        image: userservice
+        image: gcr.io/krm-test-3/cymbal-bank/release/userservice:61b0f15
         volumeMounts:
         - name: keys
           mountPath: "/root/.ssh"
